@@ -1,0 +1,25 @@
+{
+  "/cloudjunction/child-record-deletion/orders": {
+    "GET": {
+      "status": "success",
+      "message": "Fetched mock order deletions",
+      "data": {
+        "orderId": "MOCK-1001",
+        "deletedChildren": 3,
+        "timestamp": "now"
+      }
+    },
+    "POST": {
+      "status": "received",
+      "message": "Mock order deletion POST accepted",
+      "timestamp": "now"
+    }
+  },
+  "/cloudjunction/status": {
+    "GET": {
+      "status": "ok",
+      "message": "Mock API is up",
+      "timestamp": "now"
+    }
+  }
+}
