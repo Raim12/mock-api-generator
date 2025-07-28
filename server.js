@@ -29,3 +29,48 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
   console.log(`Mock API Generator running at http://localhost:${port}`);
 });
+
+
+
+app.get('/cloudjunction/child-record-deletion/orders-details/:orderId', (req, res) => {
+  const { orderId } = req.params;
+
+  const mockResponse = {
+    orderDetail: [
+      {
+        id: `${orderId}`,
+        qty: 34,
+        name: "Product B",
+        price: 23,
+        orderId,
+        product: {
+          productId: "102"
+        }
+      },
+      {
+        id: `${orderId}`,
+        qty: 5,
+        name: "Product C",
+        price: 243,
+        orderId,
+        product: {
+          productId: "103"
+        }
+      },
+      {
+        id: `${orderId}`,
+        qty: 6,
+        name: "Product E",
+        price: 33,
+        orderId,
+        product: {
+          productId: "104"
+        }
+      }
+    ],
+    id: orderId
+  };
+
+  res.json(mockResponse);
+});
+

@@ -1,25 +1,23 @@
 {
-  "/cloudjunction/child-record-deletion/orders": {
+  "/cloudjunction/orders": {
     "GET": {
-      "status": "success",
-      "message": "Fetched mock order deletions",
-      "data": {
-        "orderId": "MOCK-1001",
-        "deletedChildren": 3,
-        "timestamp": "now"
-      }
-    },
-    "POST": {
-      "status": "received",
-      "message": "Mock order deletion POST accepted",
-      "timestamp": "now"
-    }
-  },
-  "/cloudjunction/status": {
-    "GET": {
-      "status": "ok",
-      "message": "Mock API is up",
-      "timestamp": "now"
+      "response": [
+        {
+          "orderId": "bed78-uj98253-98kjs-i9",
+          "soNumber": "SO-001",
+          "effectiveDate": "2025-07-27"
+        },
+        {
+          "orderId": "a1f4b-92mdf9-xyz55-8lkj",
+          "soNumber": "SO-002",
+          "effectiveDate": "2025-07-26"
+        },
+        {
+          "orderId": "cc334-ab887d-kjhs2-mn83",
+          "soNumber": "SO-003",
+          "effectiveDate": "2025-07-25"
+        }
+      ]
     }
   }
 }
