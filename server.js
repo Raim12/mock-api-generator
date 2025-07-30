@@ -30,7 +30,24 @@ app.listen(port, () => {
   console.log(`Mock API Generator running at http://localhost:${port}`);
 });
 
+let savedJson = {}; // This will hold the last POSTed JSON
 
+// POST and GET /user-defined
+app.route('/user-defined')
+  .post((req, res) => {
+    savedJson = req.body;
+    res.json({ message: 'Data received successfully', data: savedJson });
+  })
+  .get((req, res) => {
+    if (Object.keys(savedJson).length === 0) {
+      return res.status(404).json({ message: 'No data available yet. Please POST first.' });
+    }
+    res.json(savedJson);
+  });
+
+app.listen(port, () => {
+  console.log(`Server running on port ${port}`);
+});
 
 app.get('/cloudjunction/child-record-deletion/orders-details/:orderId', (req, res) => {
   const { orderId } = req.params;
