@@ -38,7 +38,7 @@ app.get('/cloudjunction/child-record-deletion/orders-details/:orderId', (req, re
   const mockResponse = {
     orderDetail: [
       {
-        id: `${orderId}`,
+        id: "a3c7yue6-3456-7890-1234-567111123986",
         qty: 34,
         name: "Product B",
         price: 23,
@@ -48,7 +48,7 @@ app.get('/cloudjunction/child-record-deletion/orders-details/:orderId', (req, re
         }
       },
       {
-        id: `${orderId}`,
+        id: "b3c7yue6-3456-7890-1234-567111123986",
         qty: 5,
         name: "Product C",
         price: 243,
@@ -58,7 +58,7 @@ app.get('/cloudjunction/child-record-deletion/orders-details/:orderId', (req, re
         }
       },
       {
-        id: `${orderId}`,
+        id: "c3c4due6-3456-7890-1234-567111123904",
         qty: 6,
         name: "Product E",
         price: 33,
