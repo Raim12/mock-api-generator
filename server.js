@@ -26,13 +26,9 @@ app.get('/', (req, res) => {
   res.send('Mock API Generator is running!');
 });
 
-app.listen(port, () => {
-  console.log(`Mock API Generator running at http://localhost:${port}`);
-});
-
+// Dynamic POST + GET Endpoint to store user JSON
 let savedJson = {}; // This will hold the last POSTed JSON
 
-// POST and GET /user-defined
 app.route('/user-defined')
   .post((req, res) => {
     savedJson = req.body;
@@ -45,10 +41,7 @@ app.route('/user-defined')
     res.json(savedJson);
   });
 
-app.listen(port, () => {
-  console.log(`Server running on port ${port}`);
-});
-
+// Dynamic order details route
 app.get('/cloudjunction/child-record-deletion/orders-details/:orderId', (req, res) => {
   const { orderId } = req.params;
 
@@ -60,9 +53,7 @@ app.get('/cloudjunction/child-record-deletion/orders-details/:orderId', (req, re
         name: "Product B",
         price: 23,
         orderId,
-        product: {
-          productId: "102"
-        }
+        product: { productId: "102" }
       },
       {
         id: "b3c7yue6-3456-7890-1234-567111123986",
@@ -70,9 +61,7 @@ app.get('/cloudjunction/child-record-deletion/orders-details/:orderId', (req, re
         name: "Product C",
         price: 243,
         orderId,
-        product: {
-          productId: "103"
-        }
+        product: { productId: "103" }
       },
       {
         id: "c3c4due6-3456-7890-1234-567111123904",
@@ -80,9 +69,7 @@ app.get('/cloudjunction/child-record-deletion/orders-details/:orderId', (req, re
         name: "Product E",
         price: 33,
         orderId,
-        product: {
-          productId: "104"
-        }
+        product: { productId: "104" }
       }
     ],
     id: orderId
@@ -91,3 +78,7 @@ app.get('/cloudjunction/child-record-deletion/orders-details/:orderId', (req, re
   res.json(mockResponse);
 });
 
+// Only one listen call here
+app.listen(port, () => {
+  console.log(`Mock API Generator running on http://localhost:${port}`);
+});
