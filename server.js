@@ -48,7 +48,7 @@ app.get('/cloudjunction/child-record-deletion/orders-details/:orderId', (req, re
   const mockResponse = {
     orderDetail: [
       {
-        id: "a3c7yue6-3456-7890-1234-567111123986",
+        id: `a3c7yue6-3456-7890-1234--${orderId}`,
         qty: 34,
         name: "Product B",
         price: 23,
@@ -56,7 +56,7 @@ app.get('/cloudjunction/child-record-deletion/orders-details/:orderId', (req, re
         product: { productId: "102" }
       },
       {
-        id: "b3c7yue6-3456-7890-1234-567111123986",
+        id: `b3c7yue6-3456-7890-1234--${orderId}`,
         qty: 5,
         name: "Product C",
         price: 243,
@@ -64,7 +64,7 @@ app.get('/cloudjunction/child-record-deletion/orders-details/:orderId', (req, re
         product: { productId: "103" }
       },
       {
-        id: "c3c4due6-3456-7890-1234-567111123904",
+        id: `c3c4due6-3456-7890-1234--${orderId}`,
         qty: 6,
         name: "Product E",
         price: 33,
@@ -77,6 +77,7 @@ app.get('/cloudjunction/child-record-deletion/orders-details/:orderId', (req, re
 
   res.json(mockResponse);
 });
+
 
 // Only one listen call here
 app.listen(port, () => {
