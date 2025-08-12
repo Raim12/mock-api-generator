@@ -48,12 +48,28 @@ app.get('/cloudjunction/child-record-deletion/orders-details/:orderId', (req, re
   const mockResponse = {
     orderDetail: [
       {
-        id: `line--${orderId}`,
+        id: `line-01--${orderId}`,
         qty: 34,
         name: "Product B",
         price: 23,
         orderId,
         product: { productId: "102" }
+      },
+      {
+        id: `line-02--${orderId}`,
+        qty: 5,
+        name: "Product C",
+        price: 243,
+        orderId,
+        product: { productId: "103" }
+      },
+      {
+        id: `line-03--${orderId}`,
+        qty: 6,
+        name: "Product E",
+        price: 33,
+        orderId,
+        product: { productId: "104" }
       }
     ],
     id: orderId

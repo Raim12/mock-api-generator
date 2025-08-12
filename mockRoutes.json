@@ -3,8 +3,13 @@
     "GET": {
       "response": [
   {
-    "orderId": "yzwrqk404p2hxprvnnrc3d4",
+    "orderId": "order-01",
     "soNumber": "SO-1110",
+    "effectiveDate": "2025-07-27"
+  },
+  {
+    "orderId": "order-02",
+    "soNumber": "SO-1111",
     "effectiveDate": "2025-07-27"
   }
 ]
