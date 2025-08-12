@@ -54,22 +54,6 @@ app.get('/cloudjunction/child-record-deletion/orders-details/:orderId', (req, re
         price: 23,
         orderId,
         product: { productId: "102" }
-      },
-      {
-        id: `b3c7yue6-3456-7890-1234--${orderId}`,
-        qty: 5,
-        name: "Product C",
-        price: 243,
-        orderId,
-        product: { productId: "103" }
-      },
-      {
-        id: `c3c4due6-3456-7890-1234--${orderId}`,
-        qty: 6,
-        name: "Product E",
-        price: 33,
-        orderId,
-        product: { productId: "104" }
       }
     ],
     id: orderId
