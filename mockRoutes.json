@@ -96,61 +96,6 @@
     "orderId": "order-19",
     "soNumber": "SO-019",
     "effectiveDate": "2025-07-27"
-  },
-  {
-    "orderId": "order-20",
-    "soNumber": "SO-020",
-    "effectiveDate": "2025-07-27"
-  },
-  {
-    "orderId": "order-21",
-    "soNumber": "SO-021",
-    "effectiveDate": "2025-07-27"
-  },
-  {
-    "orderId": "order-22",
-    "soNumber": "SO-022",
-    "effectiveDate": "2025-07-27"
-  },
-  {
-    "orderId": "order-23",
-    "soNumber": "SO-023",
-    "effectiveDate": "2025-07-27"
-  },
-  {
-    "orderId": "order-24",
-    "soNumber": "SO-024",
-    "effectiveDate": "2025-07-27"
-  },
-  {
-    "orderId": "order-25",
-    "soNumber": "SO-025",
-    "effectiveDate": "2025-07-27"
-  },
-  {
-    "orderId": "order-26",
-    "soNumber": "SO-026",
-    "effectiveDate": "2025-07-27"
-  },
-  {
-    "orderId": "order-27",
-    "soNumber": "SO-027",
-    "effectiveDate": "2025-07-27"
-  },
-  {
-    "orderId": "order-28",
-    "soNumber": "SO-028",
-    "effectiveDate": "2025-07-27"
-  },
-  {
-    "orderId": "order-29",
-    "soNumber": "SO-029",
-    "effectiveDate": "2025-07-27"
-  },
-  {
-    "orderId": "order-30",
-    "soNumber": "SO-030",
-    "effectiveDate": "2025-07-27"
   }
       ]
     }
