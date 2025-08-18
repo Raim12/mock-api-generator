@@ -26,6 +26,81 @@
     "orderId": "order-05",
     "soNumber": "SO-005",
     "effectiveDate": "2025-07-27"
+  },
+  {
+    "orderId": "order-06",
+    "soNumber": "SO-006",
+    "effectiveDate": "2025-07-27"
+  },
+  {
+    "orderId": "order-07",
+    "soNumber": "SO-007",
+    "effectiveDate": "2025-07-27"
+  },
+  {
+    "orderId": "order-08",
+    "soNumber": "SO-008",
+    "effectiveDate": "2025-07-27"
+  },
+  {
+    "orderId": "order-09",
+    "soNumber": "SO-009",
+    "effectiveDate": "2025-07-27"
+  },
+  {
+    "orderId": "order-10",
+    "soNumber": "SO-010",
+    "effectiveDate": "2025-07-27"
+  },
+  {
+    "orderId": "order-11",
+    "soNumber": "SO-011",
+    "effectiveDate": "2025-07-27"
+  },
+  {
+    "orderId": "order-12",
+    "soNumber": "SO-012",
+    "effectiveDate": "2025-07-27"
+  },
+  {
+    "orderId": "order-13",
+    "soNumber": "SO-013",
+    "effectiveDate": "2025-07-27"
+  },
+  {
+    "orderId": "order-14",
+    "soNumber": "SO-014",
+    "effectiveDate": "2025-07-27"
+  },
+  {
+    "orderId": "order-15",
+    "soNumber": "SO-015",
+    "effectiveDate": "2025-07-27"
+  },
+  {
+    "orderId": "order-16",
+    "soNumber": "SO-016",
+    "effectiveDate": "2025-07-27"
+  },
+  {
+    "orderId": "order-17",
+    "soNumber": "SO-017",
+    "effectiveDate": "2025-07-27"
+  },
+  {
+    "orderId": "order-18",
+    "soNumber": "SO-018",
+    "effectiveDate": "2025-07-27"
+  },
+  {
+    "orderId": "order-19",
+    "soNumber": "SO-019",
+    "effectiveDate": "2025-07-27"
+  },
+  {
+    "orderId": "order-20",
+    "soNumber": "SO-020",
+    "effectiveDate": "2025-07-27"
   }
       ]
     }
