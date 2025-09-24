@@ -1,9 +1,13 @@
 {
-  "response": [
-    {
-      "orderId": "order-01",
-      "soNumber": "SO-001",
-      "effectiveDate": "2025-07-27"
+  "/cloudjunction/orders": {
+    "GET": {
+      "response": [
+        {
+    "orderId": "order-01",
+    "soNumber": "SO-001",
+    "effectiveDate": "2025-07-27"
+      }     
+]
     }
-  ]
+  }
 }
