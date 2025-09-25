@@ -78,54 +78,6 @@ app.get('/cloudjunction/child-record-deletion/orders-details/:orderId', (req, re
         price: 78,
         orderId,
         product: { productId: "102" }
-      },
-      {
-        id: "order-01-line-05",
-        qty: 22,
-        name: "Product B",
-        price: 78,
-        orderId,
-        product: { productId: "102" }
-      },
-      {
-        id: "order-01-line-06",
-        qty: 22,
-        name: "Product B",
-        price: 78,
-        orderId,
-        product: { productId: "102" }
-      },
-      {
-        id: "order-01-line-07",
-        qty: 22,
-        name: "Product B",
-        price: 78,
-        orderId,
-        product: { productId: "102" }
-      },
-      {
-        id: "order-01-line-08",
-        qty: 22,
-        name: "Product B",
-        price: 78,
-        orderId,
-        product: { productId: "102" }
-      },
-      {
-        id: "order-01-line-09",
-        qty: 22,
-        name: "Product B",
-        price: 78,
-        orderId,
-        product: { productId: "102" }
-      },
-      {
-        id: "order-01-line-10",
-        qty: 22,
-        name: "Product B",
-        price: 78,
-        orderId,
-        product: { productId: "102" }
       }
     ]
   };
