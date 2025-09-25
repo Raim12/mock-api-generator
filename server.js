@@ -49,19 +49,11 @@ app.get('/cloudjunction/child-record-deletion/orders-details/:orderId', (req, re
     orderDetail: [
       {
         id: "order-01-line-01",
-        qty: 34,
+        qty: 22,
         name: "Product B",
-        price: 23,
+        price: 78,
         orderId,
         product: { productId: "102" }
-      },
-      {
-        id: "order-01-line-02",
-        qty: 35,
-        name: "Product C",
-        price: 24,
-        orderId,
-        product: { productId: "103" }
       }
     ]
   };
