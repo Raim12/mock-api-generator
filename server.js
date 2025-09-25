@@ -45,53 +45,38 @@ app.route('/user-defined')
 app.get('/cloudjunction/child-record-deletion/orders-details/:orderId', (req, res) => {
   const { orderId } = req.params;
 
+  // Predefined line items for different orders
+  const orderLineItems = {
+    "order-01": [
+      { id: "order-01-line-01", qty: 2, name: "Laptop", price: 1200, orderId, product: { productId: "P-001" } },
+      { id: "order-01-line-02", qty: 1, name: "Mouse", price: 25, orderId, product: { productId: "P-002" } }
+    ],
+    "order-02": [
+      { id: "order-02-line-01", qty: 3, name: "Monitor", price: 300, orderId, product: { productId: "P-003" } },
+      { id: "order-02-line-02", qty: 2, name: "Keyboard", price: 50, orderId, product: { productId: "P-004" } }
+    ],
+    "order-03": [
+      { id: "order-03-line-01", qty: 1, name: "Printer", price: 200, orderId, product: { productId: "P-005" } }
+    ],
+    "order-04": [
+      { id: "order-04-line-01", qty: 5, name: "USB-C Cable", price: 10, orderId, product: { productId: "P-006" } }
+    ],
+    "order-05": [
+      { id: "order-05-line-01", qty: 2, name: "Desk Chair", price: 150, orderId, product: { productId: "P-007" } },
+      { id: "order-05-line-02", qty: 1, name: "Desk Lamp", price: 40, orderId, product: { productId: "P-008" } }
+    ]
+  };
+
+  // Pick line items based on orderId, or fallback if not found
   const mockResponse = {
-    orderDetail: [
-      {
-        id: `${orderId}-line-01`,
-        qty: 34,
-        name: "Product B",
-        price: 23,
-        orderId,
-        product: { productId: "102" }
-      },
-      {
-        id: `${orderId}-line-02`,
-        qty: 34,
-        name: "Product B",
-        price: 23,
-        orderId,
-        product: { productId: "102" }
-      },
-      {
-        id: `${orderId}-line-03`,
-        qty: 34,
-        name: "Product B",
-        price: 23,
-        orderId,
-        product: { productId: "102" }
-      },
-      {
-        id: `${orderId}-line-04`,
-        qty: 34,
-        name: "Product B",
-        price: 23,
-        orderId,
-        product: { productId: "102" }
-      },
-      {
-        id: `${orderId}-line-05`,
-        qty: 34,
-        name: "Product B",
-        price: 23,
-        orderId,
-        product: { productId: "102" }
-      }
+    orderDetail: orderLineItems[orderId] || [
+      { id: `${orderId}-line-01`, qty: 1, name: "Default Item", price: 0, orderId, product: { productId: "P-000" } }
     ]
   };
 
   res.json(mockResponse);
 });
+
 
 
 // Only one listen call here
