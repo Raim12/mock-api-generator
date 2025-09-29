@@ -1,33 +1,29 @@
 {
   "/cloudjunction/orders": {
     "GET": {
-      "response": [
-        {
-    "orderId": "order-01",
-    "soNumber": "SO-001",
-    "effectiveDate": "2025-07-27"
-      },
-      {
-    "orderId": "order-02",
-    "soNumber": "SO-002",
-    "effectiveDate": "2025-07-27"
-      },
-      {
-    "orderId": "order-03",
-    "soNumber": "SO-003",
-    "effectiveDate": "2025-07-27"
-      },
-      {
-    "orderId": "order-04",
-    "soNumber": "SO-004",
-    "effectiveDate": "2025-07-27"
-      },
-      {
-    "orderId": "order-05",
-    "soNumber": "SO-005",
-    "effectiveDate": "2025-07-27"
-      }                 
-]
+  "OrderId": "O-1001",
+  "OrderDate": "2025-09-25",
+  "Status": "Confirmed",
+  "TotalAmount": 350.00,
+  "Currency": "USD",
+  "OrderLines": [
+    {
+      "OrderLineId": "OL-2001",
+      "ProductId": "P-101",
+      "ProductName": "Laptop",
+      "Quantity": 1,
+      "UnitPrice": 300.00,
+      "LineTotal": 300.00
+    },
+    {
+      "OrderLineId": "OL-2002",
+      "ProductId": "P-202",
+      "ProductName": "Mouse",
+      "Quantity": 2,
+      "UnitPrice": 25.00,
+      "LineTotal": 50.00
     }
+  ]
+}
   }
 }
