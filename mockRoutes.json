@@ -1,27 +1,48 @@
 {
   "/cloudjunction/orders": {
     "GET": {
-  "OrderId": "O-1001",
-  "OrderDate": "2025-09-25",
-  "Status": "Confirmed",
-  "TotalAmount": 350.00,
-  "Currency": "USD",
-  "OrderLines": [
+  "Orders": [
     {
-      "OrderLineId": "OL-2001",
-      "ProductId": "P-101",
-      "ProductName": "Laptop",
-      "Quantity": 1,
-      "UnitPrice": 300.00,
-      "LineTotal": 300.00
+      "OrderId": "O-1001",
+      "OrderDate": "2025-09-25",
+      "Status": "Confirmed",
+      "TotalAmount": 350,
+      "Currency": "USD",
+      "OrderLines": [
+        {
+          "OrderLineId": "OL-2001",
+          "ProductId": "P-101",
+          "ProductName": "Laptop",
+          "Quantity": 1,
+          "UnitPrice": 300,
+          "LineTotal": 300
+        },
+        {
+          "OrderLineId": "OL-2002",
+          "ProductId": "P-202",
+          "ProductName": "Mouse",
+          "Quantity": 2,
+          "UnitPrice": 25,
+          "LineTotal": 50
+        }
+      ]
     },
     {
-      "OrderLineId": "OL-2002",
-      "ProductId": "P-202",
-      "ProductName": "Mouse",
-      "Quantity": 2,
-      "UnitPrice": 25.00,
-      "LineTotal": 50.00
+      "OrderId": "O-1002",
+      "OrderDate": "2025-09-26",
+      "Status": "Pending",
+      "TotalAmount": 120,
+      "Currency": "USD",
+      "OrderLines": [
+        {
+          "OrderLineId": "OL-3001",
+          "ProductId": "P-303",
+          "ProductName": "Keyboard",
+          "Quantity": 1,
+          "UnitPrice": 120,
+          "LineTotal": 120
+        }
+      ]
     }
   ]
 }
