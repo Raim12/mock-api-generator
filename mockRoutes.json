@@ -10,10 +10,14 @@
         "street": "Model Colony",
         "road": "Liaquat Ali Khan Road"
       },
-      "contact":{
+      "contact":[{
         "LastName": "Jamshed Jamal",
         "FirstName": "Muhammad Raim"
-      }
+      },
+      {
+        "LastName": "CJ Official first",
+        "FirstName": "CJA first"
+      }]
     },
     {
       "name": "Ali",
@@ -23,10 +27,14 @@
         "street": "Gulshan-e-Iqbal",
         "road": "University Road"
       },
-      "contact":{
+      "contact":[{
         "LastName": "CJ Official",
         "FirstName": "CJA"
-      }
+      },
+      {
+        "LastName": "CJ Official second",
+        "FirstName": "CJA second"
+      }]
     },
     {
       "name": "Sara",
