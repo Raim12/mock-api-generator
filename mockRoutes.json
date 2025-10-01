@@ -1,33 +1,36 @@
 {
   "/cloudjunction/orders": {
     "GET": {
-  "response": [
+  "Accounts": [
     {
-      "orderId": "order-01",
-      "soNumber": "SO-001",
-      "effectiveDate": "2025-07-27"
+      "name": "Raim",
+      "phone": "03162731632",
+      "id": "001",
+      "address": {
+        "street": "Model Colony",
+        "road": "Liaquat Ali Khan Road"
+      }
     },
     {
-      "orderId": "order-02",
-      "soNumber": "SO-002",
-      "effectiveDate": "2025-07-27"
+      "name": "Ali",
+      "phone": "03211234567",
+      "id": "002",
+      "address": {
+        "street": "Gulshan-e-Iqbal",
+        "road": "University Road"
+      }
     },
     {
-      "orderId": "order-03",
-      "soNumber": "SO-003",
-      "effectiveDate": "2025-07-27"
-    },
-    {
-      "orderId": "order-04",
-      "soNumber": "SO-004",
-      "effectiveDate": "2025-07-27"
-    },
-    {
-      "orderId": "order-05",
-      "soNumber": "SO-005",
-      "effectiveDate": "2025-07-27"
+      "name": "Sara",
+      "phone": "03329876543",
+      "id": "003",
+      "address": {
+        "street": "Clifton",
+        "road": "Sea View Road"
+      }
     }
   ]
 }
+
   }
 }
