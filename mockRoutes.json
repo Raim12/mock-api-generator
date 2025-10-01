@@ -22,6 +22,10 @@
       "address": {
         "street": "Gulshan-e-Iqbal",
         "road": "University Road"
+      },
+      "contact":{
+        "LastName": "CJ Official",
+        "FirstName": "CJA"
       }
     },
     {
