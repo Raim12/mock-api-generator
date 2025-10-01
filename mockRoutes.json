@@ -9,6 +9,10 @@
       "address": {
         "street": "Model Colony",
         "road": "Liaquat Ali Khan Road"
+      },
+      "contact":{
+        "LastName": "Jamshed Jamal",
+        "FirstName": "Muhammad Raim"
       }
     },
     {
