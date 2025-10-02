@@ -10,16 +10,26 @@
         "street": "Model Colony",
         "road": "Liaquat Ali Khan Road"
       },
-      "contact":[{
-        "LastName": "Contact 1",
-        "FirstName": "App Dev",
-        "id":"1"
-      },
-      {
-        "LastName": "Contact 2",
-        "FirstName": "QA",
-        "id":"2"
-      }]
+      "contact": [
+        {
+          "LastName": "Contact 1",
+          "FirstName": "App Dev",
+          "id": "1",
+          "contactaddress": {
+            "street": "Karachi street 14",
+            "road": "Tariq Road"
+          }
+        },
+        {
+          "LastName": "Contact 2",
+          "FirstName": "QA",
+          "id": "2",
+          "contactaddress": {
+            "street": "Karachi street 15",
+            "road": "Memon Goth"
+          }
+        }
+      ]
     },
     {
       "name": "Ali",
@@ -29,16 +39,22 @@
         "street": "Gulshan-e-Iqbal",
         "road": "University Road"
       },
-      "contact":[{
-        "LastName": "Contact 3",
-        "FirstName": "SD",
-        "id":"3"
-      },
-      {
-        "LastName": "Contact 4",
-        "FirstName": "PRM",
-        "id":"4"
-      }]
+      "contact": [
+        {
+          "LastName": "Contact 3",
+          "FirstName": "SD",
+          "id": "3"
+        },
+        {
+          "LastName": "Contact 4",
+          "FirstName": "PRM",
+          "id": "4",
+          "contactaddress": {
+            "street": "Karachi street 16",
+            "road": "Safoora Goth"
+          }
+        }
+      ]
     },
     {
       "name": "Sara",
