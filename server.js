@@ -52,18 +52,18 @@ app.get('/cloudjunction/child-record-deletion/orders-details/:orderId', (req, re
       { id: "line-02", qty: 1, name: "Mouse", price: 25, orderId, product: { productId: "P-002" } }
     ],
     "order-02": [
-      { id: "line-01", qty: 3, name: "Monitor", price: 300, orderId, product: { productId: "P-003" } },
-      { id: "line-02", qty: 2, name: "Keyboard", price: 50, orderId, product: { productId: "P-004" } }
+      { id: "line-03", qty: 3, name: "Monitor", price: 300, orderId, product: { productId: "P-003" } },
+      { id: "line-04", qty: 2, name: "Keyboard", price: 50, orderId, product: { productId: "P-004" } }
     ],
     "order-03": [
-      { id: "line-01", qty: 1, name: "Printer", price: 200, orderId, product: { productId: "P-005" } }
+      { id: "line-05", qty: 1, name: "Printer", price: 200, orderId, product: { productId: "P-005" } }
     ],
     "order-04": [
-      { id: "line-01", qty: 5, name: "USB-C Cable", price: 10, orderId, product: { productId: "P-006" } }
+      { id: "line-06", qty: 5, name: "USB-C Cable", price: 10, orderId, product: { productId: "P-006" } }
     ],
     "order-05": [
-      { id: "line-01", qty: 2, name: "Desk Chair", price: 150, orderId, product: { productId: "P-007" } },
-      { id: "line-02", qty: 1, name: "Desk Lamp", price: 40, orderId, product: { productId: "P-008" } }
+      { id: "line-07", qty: 2, name: "Desk Chair", price: 150, orderId, product: { productId: "P-007" } },
+      { id: "line-08", qty: 1, name: "Desk Lamp", price: 40, orderId, product: { productId: "P-008" } }
     ]
   };
 
